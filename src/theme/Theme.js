@@ -4,7 +4,7 @@ export const colors = {
     text: "#000",
     white: "#fff",
     primary: '#20242c',
-    second: '#b94b2c',
+    second: '#ffcd67',
     tab: '#232b3b'
 }
 

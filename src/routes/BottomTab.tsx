@@ -3,13 +3,13 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeScreen } from '../pages/main/HomeScreen';
 import { colors } from '../theme/Theme';
 import { AntDesign } from '@expo/vector-icons';
+import { SplashScreen } from '../pages/main/SplashScreen';
 
 const Tab = createBottomTabNavigator();
 
 export const BottomTab = () => {
     return (
         <Tab.Navigator
-            initialRouteName='HomeScreen'
             screenOptions={{
                 tabBarShowLabel: false,
                 tabBarStyle: {

@@ -7,7 +7,6 @@ import { useIsFocused } from '@react-navigation/native';
 export const HomeScreen = () => {
 
     const [filter, setFilter] = useState('');
-    const isFocused = useIsFocused()
 
     return (
         <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
